@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Pressure",
+    "slug": "pressure",
+    "subcategories": [
+      "Pressure Transmitters",
+      "Differential Pressure Transmitters",
+      "Pressure Switches",
+      "Pressure Gauges"
+    ]
+  },
+  {
+    "name": "Level",
+    "slug": "level",
+    "subcategories": [
+      "Ultrasonic Level Meters",
+      "Radar Level Meters",
+      "Submersible Level Transmitters",
+      "Level Transmitters & Sensors"
+    ]
+  },
+  {
+    "name": "Flow",
+    "slug": "flow",
+    "subcategories": [
+      "Electromagnetic Flowmeters",
+      "Turbine Flowmeters",
+      "Vortex Flowmeters",
+      "Ultrasonic Flowmeters"
+    ]
+  },
+  {
+    "name": "Temperature",
+    "slug": "temperature",
+    "subcategories": [
+      "RTD Temperature Sensors",
+      "Thermocouples",
+      "Temperature Transmitters"
+    ]
+  },
+  {
+    "name": "Signal Isolation",
+    "slug": "signal-isolation",
+    "subcategories": [
+      "Signal Isolators"
+    ]
+  },
+  {
+    "name": "Control",
+    "slug": "control",
+    "subcategories": [
+      "Digital Display Controllers"
+    ]
+  }
+]
