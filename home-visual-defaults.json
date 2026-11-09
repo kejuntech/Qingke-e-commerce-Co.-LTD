@@ -1,0 +1,312 @@
+{
+  "announcement": "Professional Manufacturer of Industrial Instrumentation",
+  "hero": {
+    "eyebrow": "",
+    "title": "Reliable Measurement\nfor a Smarter World",
+    "description": "Pressure · Level · Flow · Temperature\nProfessional Industrial Instrumentation Manufacturer",
+    "image": "assets/reference-home/hero-industrial.jpg",
+    "button": "View Products",
+    "href": "products.html"
+  },
+  "sections": {
+    "categories": {
+      "title": "Product Categories",
+      "subtitle": "",
+      "columns": 6
+    },
+    "featured": {
+      "title": "Featured Products",
+      "subtitle": "",
+      "columns": 5
+    },
+    "applications": {
+      "title": "Industry Applications",
+      "subtitle": "",
+      "columns": 6
+    },
+    "advantages": {
+      "title": "Why Choose Qingke",
+      "subtitle": "",
+      "columns": 5
+    },
+    "about": {
+      "title": "About Qingke",
+      "subtitle": "",
+      "description": "Qingke is a professional manufacturer of industrial instrumentation, focusing on pressure, level, flow, temperature and related control instruments. With years of experience, advanced production equipment and strict quality management, we provide reliable products and customized solutions for global customers.",
+      "image": "assets/reference-home/factory-collage.jpg",
+      "button": "Learn More",
+      "href": "about.html"
+    },
+    "news": {
+      "title": "Latest News",
+      "subtitle": "",
+      "columns": 3
+    }
+  },
+  "categories": [
+    {
+      "id": "pressure",
+      "title": "Pressure Instruments",
+      "description": "",
+      "image": "assets/reference-home/category-1.jpg",
+      "href": "products.html?category=Pressure"
+    },
+    {
+      "id": "level",
+      "title": "Level Instruments",
+      "description": "",
+      "image": "assets/reference-home/category-2.jpg",
+      "href": "products.html?category=Level"
+    },
+    {
+      "id": "flow",
+      "title": "Flow Instruments",
+      "description": "",
+      "image": "assets/reference-home/category-3.jpg",
+      "href": "products.html?category=Flow"
+    },
+    {
+      "id": "temperature",
+      "title": "Temperature Instruments",
+      "description": "",
+      "image": "assets/reference-home/category-4.jpg",
+      "href": "products.html?category=Temperature"
+    },
+    {
+      "id": "signal",
+      "title": "Control Instruments",
+      "description": "",
+      "image": "assets/reference-home/category-5.jpg",
+      "href": "products.html?category=Control"
+    },
+    {
+      "id": "accessories",
+      "title": "Sensors & Accessories",
+      "description": "",
+      "image": "assets/reference-home/category-6.jpg",
+      "href": "products.html"
+    }
+  ],
+  "featured": [
+    {
+      "title": "LCD Pressure Transmitter",
+      "description": "KJ-QK-YL-301 Series",
+      "image": "assets/catalog-optimized-20261024/kj-qk-yl-301.webp",
+      "href": "product.html?id=kj-qk-yl-301",
+      "productId": "kj-qk-yl-301",
+      "badge": "View Details"
+    },
+    {
+      "title": "Ultrasonic Level Transmitter",
+      "description": "KEJUN501 Series",
+      "image": "assets/catalog-optimized-20261024/kejun501.webp",
+      "href": "product.html?id=kejun501",
+      "productId": "kejun501",
+      "badge": "View Details"
+    },
+    {
+      "title": "Turbine Flow Meter",
+      "description": "LWGY-KEJUN Series",
+      "image": "assets/catalog-optimized-20261024/lwgy-kejun.webp",
+      "href": "product.html?id=lwgy-kejun",
+      "productId": "lwgy-kejun",
+      "badge": "View Details"
+    },
+    {
+      "title": "Industrial Temperature Sensor",
+      "description": "KEJUN-WRN Series",
+      "image": "assets/catalog-optimized-20261024/kejun-wrn.webp",
+      "href": "product.html?id=kejun-wrn",
+      "productId": "kejun-wrn",
+      "badge": "View Details"
+    },
+    {
+      "title": "Differential Pressure Transmitter",
+      "description": "KJ-QK-3051 Series",
+      "image": "assets/catalog-optimized-20261024/kj-qk-3051.webp",
+      "href": "product.html?id=kj-qk-3051",
+      "productId": "kj-qk-3051",
+      "badge": "View Details"
+    }
+  ],
+  "applications": [
+    {
+      "title": "Water Treatment",
+      "description": "",
+      "image": "assets/reference-home/application-1.jpg",
+      "href": "applications.html"
+    },
+    {
+      "title": "Petrochemical",
+      "description": "",
+      "image": "assets/reference-home/application-2.jpg",
+      "href": "applications.html"
+    },
+    {
+      "title": "Food & Beverage",
+      "description": "",
+      "image": "assets/reference-home/application-3.jpg",
+      "href": "applications.html"
+    },
+    {
+      "title": "Pharmaceutical",
+      "description": "",
+      "image": "assets/reference-home/application-4.jpg",
+      "href": "applications.html"
+    },
+    {
+      "title": "HVAC",
+      "description": "",
+      "image": "assets/reference-home/application-5.jpg",
+      "href": "applications.html"
+    },
+    {
+      "title": "Environmental Monitoring",
+      "description": "",
+      "image": "assets/reference-home/application-6.jpg",
+      "href": "applications.html"
+    }
+  ],
+  "advantages": [
+    {
+      "title": "Factory Direct",
+      "description": "Strict quality control",
+      "icon": "shield-check",
+      "size": 1
+    },
+    {
+      "title": "Professional R&D",
+      "description": "Customized solutions",
+      "icon": "settings",
+      "size": 1
+    },
+    {
+      "title": "ISO Quality System",
+      "description": "Reliable and stable",
+      "icon": "shield-check",
+      "size": 1
+    },
+    {
+      "title": "Global Shipping",
+      "description": "Fast delivery worldwide",
+      "icon": "globe",
+      "size": 1
+    },
+    {
+      "title": "After-sales Support",
+      "description": "7×24 technical service",
+      "icon": "headset",
+      "size": 1
+    }
+  ],
+  "news": [
+    {
+      "title": "How to Choose the Right Pressure Transmitter for Your Application",
+      "description": "Learn the key factors to consider when selecting a pressure transmitter for industrial use.",
+      "image": "assets/reference-home/news-1.jpg",
+      "href": "resources.html"
+    },
+    {
+      "title": "Application of Ultrasonic Level Meter in Water Treatment",
+      "description": "Ultrasonic level meters provide accurate and reliable level measurement in various water treatment processes.",
+      "image": "assets/reference-home/news-2.jpg",
+      "href": "resources.html"
+    },
+    {
+      "title": "Electromagnetic Flow Meter Working Principle and Advantages",
+      "description": "Discover how electromagnetic flow meters work and why they are widely used in industrial fields.",
+      "image": "assets/reference-home/news-3.jpg",
+      "href": "resources.html"
+    }
+  ],
+  "footer": {
+    "description": "Industrial measurement and automation solutions from Qingke e-commerce Co., LTD.",
+    "email": "719166379@qq.com",
+    "phone": "",
+    "whatsapp": "+86 13696651208",
+    "copyright": "© Qingke e-commerce Co., LTD. All rights reserved."
+  },
+  "cta": {
+    "title": "Need a reliable measurement solution?",
+    "description": "Talk with our team about your requirements.",
+    "button": "Request a Quote",
+    "href": "contact.html"
+  },
+  "trust": [
+    {
+      "title": "Industrial Grade Quality",
+      "icon": "◈"
+    },
+    {
+      "title": "Reliable Measurement",
+      "icon": "◉"
+    },
+    {
+      "title": "OEM / ODM Solutions",
+      "icon": "⚙"
+    },
+    {
+      "title": "Global B2B Support",
+      "icon": "◎"
+    }
+  ],
+  "navigation": [
+    {
+      "title": "Home",
+      "href": "index.html"
+    },
+    {
+      "title": "Products",
+      "href": "products.html"
+    },
+    {
+      "title": "Solutions",
+      "href": "applications.html"
+    },
+    {
+      "title": "Technical Support",
+      "href": "resources.html"
+    },
+    {
+      "title": "About Us",
+      "href": "about.html"
+    },
+    {
+      "title": "Contact Us",
+      "href": "contact.html"
+    }
+  ],
+  "support": {
+    "label": "Contact customer support",
+    "href": "contact.html"
+  },
+  "heroSlides": [
+    {
+      "eyebrow": "",
+      "title": "Reliable Measurement\nfor a Smarter World",
+      "description": "Pressure · Level · Flow · Temperature\nProfessional Industrial Instrumentation Manufacturer",
+      "image": "assets/reference-home/hero-industrial.jpg",
+      "button": "View Products",
+      "href": "products.html",
+      "enabled": true
+    },
+    {
+      "eyebrow": "",
+      "title": "Precision Instruments\nBuilt for Industry",
+      "description": "Pressure · Level · Flow · Temperature\nReliable Solutions for Global Customers",
+      "image": "assets/reference-home/hero-industrial.jpg",
+      "button": "View Products",
+      "href": "products.html",
+      "enabled": true
+    },
+    {
+      "eyebrow": "",
+      "title": "Your Trusted Partner\nin Measurement",
+      "description": "Industrial Automation · Technical Support\nContact Our Engineering Team",
+      "image": "assets/reference-home/hero-industrial.jpg",
+      "button": "Contact Us",
+      "href": "contact.html",
+      "enabled": true
+    }
+  ]
+}

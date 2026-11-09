@@ -1,0 +1,3 @@
+
+/* V13 category imagery: optional settings.homeCategoryImages, falls back to bundled images. */
+(function(){async function init(){const cards=[...document.querySelectorAll('.v18-category .kejun-category-photo')];if(!cards.length)return;try{const r=await fetch('/api/settings',{cache:'no-store'});if(!r.ok)return;const cfg=(await r.json()).homeCategoryImages;if(!cfg||typeof cfg!=='object')return;const names=['pressure','level','flow','temperature','isolator'];cards.forEach((img,i)=>{const v=cfg[names[i]];if(typeof v==='string'&&(/^(assets\/|https:\/\/)/i).test(v))img.src=v})}catch(e){}}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init()})();

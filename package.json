@@ -1,0 +1,21 @@
+{
+  "name": "qingke-industrial-instruments-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Qingke industrial instrumentation website and inquiry CMS",
+  "scripts": {
+    "start": "node server.js",
+    "preflight:production": "node scripts/preflight-production.js",
+    "audit:repository-safety": "node scripts/audit-repository-safety.js",
+    "migrate:postgres:dry-run": "node scripts/migrate-json-to-postgres.js",
+    "migrate:postgres:apply": "node scripts/migrate-json-to-postgres.js --apply",
+    "verify:postgres:snapshot": "node scripts/verify-postgres-snapshot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.1",
+    "pg": "^8.16.3"
+  }
+}

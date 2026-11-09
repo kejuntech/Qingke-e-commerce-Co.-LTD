@@ -1,0 +1,55 @@
+/* V70: screenshot-aligned presentation layer. CMS data and module controls remain authoritative. */
+@media(min-width:1101px){
+.kejun-new-home .kh-top .kh-container{min-height:28px}
+.kejun-new-home .kh-nav{min-height:67px}
+.kejun-new-home .kh-logo-mark{display:none}
+.kejun-new-home .kh-logo small{display:none}
+.kejun-new-home .kh-logo{font-style:italic;font-size:31px}
+.kejun-new-home .kh-hero-layout{min-height:430px}
+.kejun-new-home .kh-section{padding:29px 0}
+.kejun-new-home .kh-heading{text-align:left;margin-bottom:20px}
+.kejun-new-home .kh-heading h2{font-size:27px;color:#0764a9}
+.kejun-new-home .kh-heading p{font-size:12px}
+.kejun-new-home .kh-grid.kh-categories{grid-template-columns:repeat(var(--kh-editor-columns,6),minmax(0,1fr))}
+.kejun-new-home .kh-categories .kh-card img{height:150px}
+.kejun-new-home .kh-categories .kh-card h3{font-size:13px}
+.kejun-new-home .kh-grid.kh-featured{grid-template-columns:repeat(var(--kh-editor-columns,5),minmax(0,1fr))}
+.kejun-new-home .kh-grid.kh-applications{grid-template-columns:repeat(var(--kh-editor-columns,6),minmax(0,1fr))}
+.kejun-new-home .kh-applications .kh-card img{height:180px}
+.kejun-new-home .kh-grid.kh-advantages{grid-template-columns:repeat(var(--kh-editor-columns,5),minmax(0,1fr))}
+.kejun-new-home .kh-adv-card{border:0;box-shadow:none;padding:14px 8px}
+.kejun-new-home .kh-adv-icon{width:54px;height:54px}
+.kejun-new-home .kh-about{grid-template-columns:42% 58%;gap:16px}
+.kejun-new-home .kh-about-img{order:2;height:350px}
+.kejun-new-home .kh-about>div:last-child{order:1;background:#06365b;color:#fff;border-radius:6px;padding:25px;min-height:350px}
+.kejun-new-home .kh-about h2,.kejun-new-home .kh-about h3,.kejun-new-home .kh-about p{color:#fff}
+.kejun-new-home .kh-grid.kh-news{grid-template-columns:repeat(var(--kh-editor-columns,3),minmax(0,1fr))}
+}
+@media(max-width:720px){.kejun-new-home .kh-logo-mark{display:none}.kejun-new-home .kh-logo small{display:none}.kejun-new-home .kh-logo{font-style:italic}.kejun-new-home .kh-hero h1{font-size:34px}}
+/* V88: prevent 40% + 60% + gap desktop about-section overflow. */
+@media (min-width:1101px){
+ .kejun-new-home [data-home-module="about"] .kh-about{grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:0}
+ .kejun-new-home [data-home-module="about"] .kh-about>*{min-width:0}
+}
+
+/* 2026-10-23: brighten the existing homepage palette without changing any sizes,
+   positions, backgrounds, cards, imagery or CMS module structure. */
+.kejun-new-home{color:#183a5c}
+.kejun-new-home .kh-top{background:#0a4d91;color:#fff}
+.kejun-new-home .kh-top a{color:#f2f8ff}
+.kejun-new-home .kh-hero h1{color:#073e77}
+.kejun-new-home .kh-hero-copy>p{color:#24557e}
+.kejun-new-home .kh-heading h2{color:#1678cc}
+.kejun-new-home [data-section-title] .kh-heading-first{color:#1678cc!important}
+.kejun-new-home .kh-heading [data-section-title] .kh-heading-last{color:#080f1d!important}
+.kejun-new-home :is(.kh-categories,.kh-featured,.kh-applications,.kh-news) .kh-card h3{color:#143e6c}
+.kejun-new-home :is(.kh-categories,.kh-featured,.kh-applications,.kh-news) .kh-card p{color:#526d88}
+.kejun-new-home .kh-heading-with-action .kh-heading-action{color:#1673c2;border-color:#aecfeb}
+.kejun-new-home .kh-heading-with-action .kh-heading-action:hover{color:#07549b}
+.kejun-new-home .kh-button{background:#176bc1;color:#fff}
+.kejun-new-home .kh-card .kh-more{color:#176bc1}
+.kejun-new-home .kh-nav nav a{color:#1a4a7b}
+.kejun-new-home .kh-nav nav a:hover{color:#0874cb}
+.kejun-new-home .kh-adv-card h3{color:#14558c}
+.kejun-new-home .kh-adv-card p{color:#526d88}
+.kejun-new-home .kh-footer :is(p,a){color:#eff7ff}
